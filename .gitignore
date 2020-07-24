@@ -1,3 +1,9 @@
 Debug/
 *.ncb
 *.suo
+Backup*/
+UpgradeLog.htm
+.vs/
+*.vcxproj.filters
+*.vcxproj.user
+*.vcproj

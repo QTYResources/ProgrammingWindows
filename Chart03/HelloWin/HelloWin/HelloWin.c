@@ -69,7 +69,7 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 	switch (message)
 	{
 	case WM_CREATE:
-		PlaySound (TEXT("hellowWin.wav"), NULL, SND_FILENAME | SND_ASYNC);
+		PlaySound (TEXT("HelloWin.mp3"), NULL, SND_FILENAME | SND_ASYNC);
 		return 0;
 
 	case WM_PAINT:
